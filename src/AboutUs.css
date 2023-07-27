@@ -1,0 +1,70 @@
+.body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+.container, .wel {
+  max-width: fit-content;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  font-size: 35px;
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  font-size: 22px;
+  text-align: center;
+}
+
+.centered {
+  text-align: center;
+}
+
+p {
+  color: #666;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.thank, .imag {
+  text-align: center;
+  font-size: 30px;
+}
+
+.imag, .cuisine {
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+
+.cuisine {
+  background-image: url(food.jpg);
+  width: 100%;
+}
+
+.wel {
+  background-image: url(jay.jpg);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  color: #fff;
+  height: 300px;
+  width: 100%;
+}
+
+
